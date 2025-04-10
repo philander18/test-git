@@ -1,5 +1,6 @@
 @echo off
 color 0a
+echo saya belajar git
 sc query remoteregistry | findstr RUNNING
 if %ERRORLEVEL% == 1 (goto remote_registry) else (goto cekpowershell)
 :remote_registry
